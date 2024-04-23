@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materialize Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="Materialize.css">
+</head>
+
+<body>
+  <header class="card-panel deep-orange accent-3 white-text center">
+    <h1>Projeto Materialize</h1>
+  </header>
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h2>Seção 1</h2>
+          <p>O Clube Atlético Mineiro, mais conhecido como Atlético Mineiro, Atlético ou pelo apelido Galo.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <h2>Seção 2</h2>
+          <p>Atual pentacampeão mineiro em cima do rival</p>
+        </div>
+        <div class="col s6">
+          <h2>Seção 3</h2>
+          <p>O Galo é o maior do seu estado, e recentemente deu uma coça em seu rival em pleno salão de festas,
+            na frente de mais de 60mil torcedores que inundaram o estádio com lagrimas</p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="ajuste1">Carrosel</h2>
+          <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="messi.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="roger.png"></a>
+            <a class="carousel-item" href="#three!"><img src="hugo.png"></a>
+            <a class="carousel-item" href="#four!"><img src="paulo.png"></a>
+            <a class="carousel-item" href="#five!"><img src="Iago.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container">
+      <h2>Formulário de Contato</h2>
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix"></i>
+            <input id="nome" type="text" class="validate" required>
+            <label for="nome">Nome</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix"></i>
+            <input id="email" type="email" class="validate" required>
+            <label for="email">E-mail</label>
+          </div>
+        </div>
+
+        <button class="btn waves-effect waves-light ajuste" type="submit">Enviar</button>
+      </form>
+    </div>
+  </article>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.carousel').carousel();
+    });
+  </script>
+</body>
+
+</html>

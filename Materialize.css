@@ -1,0 +1,31 @@
+form{
+    flex-direction: column;
+}
+
+.imagem-canto {
+    opacity: 0.5;
+    transform: scale(1.0);
+    
+}
+
+
+.imagem-centro {
+    transform: scale(1.4);
+    height: auto;
+    width: 100%;
+}
+
+
+article{
+background-color: #eeebeb ;
+margin-bottom: 10px;
+padding: 10px;
+}
+body{
+    background-color: #ffffff;
+}
+
+.ajuste{
+    margin-left: 42px;
+}
+
